@@ -34,11 +34,7 @@ const Banner = () => {
         const searchTerm = e.target.value;
         setSearchInput(searchTerm);
     }
-
-    const filtered = productData.filter((product) =>
-    product.name.toLowerCase().includes(searchInput.toLowerCase())
-    );
-    setfilteredProducts(filtered);
+    
 
   return (
     <div className='banner-section style-4'>
@@ -49,9 +45,6 @@ const Banner = () => {
                     <input type="text" name='search' id="search" placeholder='Search your product' value={searchInput} onChange={handleSearch} />
                 </form>
                 <p>{desc}</p>
-                <ul className='lab-ul'>
-
-                </ul>
 
             </div>
             </div> 
