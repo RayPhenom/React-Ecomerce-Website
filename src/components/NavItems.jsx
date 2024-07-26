@@ -56,6 +56,9 @@ const NavItems = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li>
+                    <Link to="/shop">Shop</Link>
+                  </li>
+                  <li>
                     <Link to="/about">About</Link>
                   </li>
                   <li>
@@ -80,6 +83,14 @@ const NavItems = () => {
                 <span></span>
                 <span></span>
               </div>
+              {/*social toggler*/}
+              <div className="ellepsis-bar d-md-none"
+              onClick={()=> setSocialToggle(!socialToggle)}
+              >
+              <i className="icofont-info-circle"></i>
+              </div>
+
+
             </div>
           </div>
         </div>
