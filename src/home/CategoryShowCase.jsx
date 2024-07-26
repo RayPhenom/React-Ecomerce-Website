@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Ratting from '../components/Ratting';
 
 
 const title = "Our Products";
@@ -103,6 +104,39 @@ const filterItem = () => {
 
                     </ul>
 
+                </div>
+
+            </div>
+
+            <div className='section-wrapper'>
+                <div>
+                    {
+                       items.map((product) =>  <div key={product.id} className='col'>
+                        <div className='course-item style-4'>
+                            <div className='course-inner'>
+                                <div className='course-thumb'>
+                                    <img src={product.imgUrl} alt="" />
+                                    <div className='course-category'>
+                                        <div className='course-cate'>
+                                            <a href="#">{product.cate}</a>
+
+                                        </div>
+                                        <div className='course-review'>
+                                            <Ratting/>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        
+                        </div>)
+                    }
                 </div>
 
             </div>
