@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Ratting from '../components/Ratting';
+import Rating from '../components/Rating';
 
 
 const title = "Our Products";
@@ -122,7 +122,7 @@ const filterItem = () => {
 
                                         </div>
                                         <div className='course-review'>
-                                            <Ratting/>
+                                            <Rating/>
 
                                         </div>
 
