@@ -10,17 +10,17 @@ const btnText = "Apply Now";
 const countList = [
 {
 iconName: 'icofont-users-alt-4',
-count: '12600',
+count: '10900',
 text: 'Customer Enrolled',
 },
 {
 iconName: 'icofont-graduate-alt',
-count: '30',
+count: '25',
 text: 'Certified Courses',
 },
 {
 iconName: 'icofont-notification',
-count: '100',
+count: '125',
 text: 'Rewards and GitCards',
 },
 ];
