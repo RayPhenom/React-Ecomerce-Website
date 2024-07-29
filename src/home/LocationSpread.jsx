@@ -15,7 +15,7 @@ const clientsList = [
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join us in North-America",
+    text: "Join us in Canada",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
