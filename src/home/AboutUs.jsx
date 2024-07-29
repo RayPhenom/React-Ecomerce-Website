@@ -31,7 +31,7 @@ const AboutUs = () => {
     <div className='instructor-section style-2 padding-tb section-bg-ash'>
         <div className='container'>
             <div className='section-wrapper'>
-                <div className='row'>
+                <div className='row g-4 justify-content-center align-items-center row-cols-1 row-cols-md-2 row-cols-xl-3'>
                     <div className='col'>
                         {
                             countList.map((val, i) => (
@@ -61,6 +61,15 @@ const AboutUs = () => {
                             <h2 className='title'> {title}</h2>
                             <p>{desc}</p>
                             <Link to="/sign-up" className="lab-btn">{btnText}</Link>
+
+                        </div>
+
+                    </div>
+
+                    <div className='col'>
+                        <div className='instructor-thumb'>
+                            <img src="/src/assets/images/instuctor/01.png" alt="" />
+
 
                         </div>
 
