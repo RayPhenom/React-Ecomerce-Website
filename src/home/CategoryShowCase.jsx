@@ -27,10 +27,10 @@ id: 2,
 {
 imgUrl: 'src/assets/images/categoryTab/03.jpg',
 cate: 'Phones',
-title: 'iPhone 12',
+title: 'iPhone 15',
 author: 'src/assets/images/categoryTab/brand/apple.png',
 brand: 'Apple',
-price: 'KSH81,199.00',
+price: 'KSH189,199.00',
 id: 3,
 },
 {
