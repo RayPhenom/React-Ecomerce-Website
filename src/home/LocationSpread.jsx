@@ -10,37 +10,37 @@ const clientsList = [
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Join us in America",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Join us in North-America",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Join us in Asia",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Join us in South-America",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Join Us in Africa",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Join Us in Australia",
   },
   {
     imgUrl: "/src/assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
-    text: "Join with Us",
+    text: "Join Us in Asia",
   },
 ];
 
@@ -55,9 +55,10 @@ const LocationSpread = () => {
         {/* main content*/}
         <div className="section-wrapper">
           <div className="clients">
-            {clientsList.map((val, i) => (
-              <div key={i} className="clients-list">
-                <Link to="/sign-up" className="client-">
+            {
+            clientsList.map((val, i) => (
+              <div key={i} className="client-list">
+                <Link to="/sign-up" className="client-content">
                   <span>{val.text}</span>
                 </Link>
                 <div className="client-thumb">
