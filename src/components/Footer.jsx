@@ -11,15 +11,14 @@ const tweetTitle = "Recent Tweets";
 const addressList = [
   { iconName: "icofont-google-map", text: "NAIROBI, KENYA." },
   { iconName: "icofont-phone", text: "+254706935045" },
-  { iconName: "icofont-envelope", text: "info@shopcart.com" },
+  { iconName: "icofont-envelope", text: "lumuonix@com" },
 ];
 
 const socialList = [
   { iconName: "icofont-facebook", siteLink: "#", className: "facebook" },
-  { iconName: "icofont-twitter", siteLink: "#", className: "twitter" },
   { iconName: "icofont-linkedin", siteLink: "#", className: "linkedin" },
   { iconName: "icofont-instagram", siteLink: "#", className: "instagram" },
-  { iconName: "icofont-pinterest", siteLink: "#", className: "pinterest" },
+
 ];
 
 const ItemList = [
