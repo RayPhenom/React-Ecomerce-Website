@@ -5,6 +5,7 @@ const showResults = 'Showing 01-12 of 139 Results'
 import Data from "../products.json"
 import ProductCards from './ProductCards'
 import Pagination from './Pagination'
+import Search from './Search'
 
 const Shop = () => {
   const [GridList, setGridList] = useState(true);
@@ -50,7 +51,7 @@ const Shop = () => {
 
                   </div>
                   <div>
-                    <ProductCards GridList={GridList} products={products}/>
+                    <ProductCards GridList={GridList} products={currentProducts}/>
 
                   </div>
 
@@ -66,7 +67,9 @@ const Shop = () => {
 
               </div>
               <div className='col-lg-4 col-12'>
-                right side
+               <aside>
+                <Search products={products} GridList={GridList}/>
+               </aside>
 
               </div>
 
