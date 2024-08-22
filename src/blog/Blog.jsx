@@ -7,9 +7,9 @@ const Blog = () => {
     <div>
       
       {/* Blog List */} 
-      <div className="blog-list, display-flex, flex-wrap:wrap, justify-content: space-between, gap-20px ">
+      <div className="blog-list ">
         {blogList.map((blog) => (
-          <div key={blog.id} className="blog-item, box-sizzing: border-box, padding-15px, border-radius:8px ">
+          <div key={blog.id} className=" ">
             <img src={blog.imgUrl} alt={blog.imgAlt} />
             <h3>{blog.title}</h3>
             <p>{blog.desc}</p>
